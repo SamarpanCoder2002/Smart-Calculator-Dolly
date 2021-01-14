@@ -149,7 +149,7 @@ class Calculator:
                              fg="gold", relief=SUNKEN, bd=4)
         self.number2.place(x=455, y=170)
 
-        self.operator_name = Label(self.window, text="Operator:", width=12, font=("arial", 17, "bold", "italic"), bg="#141414", fg="#d96b6b")
+        self.operator_name = Label(self.window, text="Operation ", width=12, font=("arial", 17, "bold", "italic"), bg="#141414", fg="#d96b6b")
         self.operator_name.place(x=100, y=120)
 
         self.operator = Entry(self.window, width=12, font=("arial", 20, "bold", "italic"), disabledbackground="#3d3d3d",disabledforeground="gold",
